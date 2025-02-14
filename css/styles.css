@@ -1,0 +1,11 @@
+body {
+    background-color: #f0f0f0;
+}
+.navbar {
+    background-color: navy;
+    color: whitesmoke;
+    letter-spacing: 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: smaller;
+    font-weight: lighter;
+}
