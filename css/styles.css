@@ -1,5 +1,6 @@
 body {
     background-color: #f0f0f0;
+    font-family: 'Lato', sans-serif;
 }
 .navbar {
     background-color: navy;
@@ -29,4 +30,47 @@ body {
     color: navy;
     border-radius: 15px;
 
+}
+.navbar-toggler {
+    color: yellowgreen;
+    background-color: yellowgreen;
+}
+#header {
+    background-color: navy;
+    color: yellowgreen;
+    padding: 10px;
+    justify-items: center;
+}
+#header i{
+    font-size: 14px;
+    margin-right: 7px;
+    margin-left: 7px;
+}
+#home {
+    padding: 13%;
+    color: yellowgreen;
+    font-weight: bold;
+    background-color: navy;
+    background-image: url('../static/home1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+#myhome {
+    background-color: navy;
+    opacity: 0.8;
+    border-radius: 5px;
+    padding: 3%;
+}
+#home h1 {
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#myServices {
+    padding: 12px;
+    color: navy;
+    background-color: yellowgreen;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: smaller;
 }
