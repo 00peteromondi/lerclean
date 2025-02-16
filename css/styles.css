@@ -13,28 +13,30 @@ body {
 }
 #navbarNav li a {
     color: yellowgreen;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 #navbarNav li {
-    margin: 5px;
+    margin: 10px;
     padding: 5px;
     width: inherit;
     
 }
 #navbarNav li.active a {
     border: solid 1px yellowgreen;
-    border-radius: 15px;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+
 
 }
 #navbarNav li:hover a {
     background-color: yellowgreen;
     color: navy;
-    border-radius: 15px;
+    border-radius: 5px;
 
 }
-.navbar-toggler {
-    color: yellowgreen;
-    background-color: yellowgreen;
-}
+
 #header {
     background-color: navy;
     color: yellowgreen;
@@ -58,9 +60,10 @@ body {
 }
 #myhome {
     background-color: navy;
-    opacity: 0.8;
+    opacity: 0.88;
     border-radius: 5px;
     padding: 3%;
+    justify-items: center;
 }
 #home h1 {
     font-weight: bold;
@@ -68,9 +71,38 @@ body {
 }
 #myServices {
     padding: 12px;
-    color: navy;
-    background-color: yellowgreen;
+    color: yellowgreen;
+    background-color: navy;
     letter-spacing: 2px;
     text-transform: uppercase;
     font-size: smaller;
+    text-decoration: underline;
+}
+#myServices:hover {
+    background-color: yellowgreen;
+    color: navy;
+    border-radius: 5px;
+    text-decoration: none;
+}
+#about {
+    background-color: yellowgreen;
+    color: navy;
+
+}
+
+#about h1 {
+    background-color: navy;
+    color: yellowgreen;
+    justify-self: center;
+    margin-top: 20px;
+    padding: 25px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+}
+#aboutUs p {
+    padding: 5%;
+    margin: 5%;
+    letter-spacing: 1px;
+    font-size: large;
+    text-align: center;
 }
