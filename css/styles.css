@@ -149,6 +149,7 @@ body {
     }
     #home {
         padding: 10%;
+        margin-top: 70px;
     }
     #myhome {
         padding: 2%;
@@ -176,12 +177,14 @@ body {
         font-size: 44px;
         padding: 20px;
         margin: 70px;
+        text-align: center;
         
     }
     #aboutUs p {
-        font-size: medium;
+        font-size: small;
         padding: 3%;
         margin: 3%;
+        letter-spacing: 1.2px;
     }
     #aboutpic {
         padding: 5%;
