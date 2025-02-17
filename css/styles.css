@@ -1,6 +1,10 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
-    background-color: #f0f0f0;
-    font-family: 'Lato', sans-serif;
+    position: relative;
+    overflow-y: scroll;
 }
 .navbar {
     background-color: navy;
@@ -94,7 +98,7 @@ body {
     background-color: navy;
     color: yellowgreen;
     justify-self: center;
-    margin-top: 20px;
+    margin-top: 90px;
     padding: 25px;
     border-radius: 5px;
     letter-spacing: 2px;
@@ -130,6 +134,9 @@ body {
 }
 
 @media (max-width: 600px) {
+    html {
+        scroll-behavior: smooth;
+    }
     body {
         font-size: 14px;
     }
@@ -156,18 +163,25 @@ body {
     }
     #myServices {
         font-size: x-small;
+        margin-bottom: 20px;
+        background-color: yellowgreen;
+        color: navy;
+        text-decoration: none;
     }
     #about {
+        margin-top: 10px;
         background-color: transparent;
     }
     #about h1 {
         font-size: 44px;
         padding: 20px;
+        margin: 70px;
+        
     }
     #aboutUs p {
         font-size: medium;
-        padding: 4%;
-        margin: 4%;
+        padding: 3%;
+        margin: 3%;
     }
     #aboutpic {
         padding: 5%;
@@ -179,6 +193,7 @@ body {
     #services h1 {
         font-size: 44px;
         letter-spacing: 2px;
+        margin-top: 70px;
     }
     
 }
