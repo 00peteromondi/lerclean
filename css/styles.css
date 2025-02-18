@@ -188,7 +188,7 @@ body {
     text-decoration: none;
 }
 #contacts {
-    background-color: lightgray;
+    background-color: whitesmoke;
 }
 
 @media (max-width: 600px) {
