@@ -94,7 +94,7 @@ body {
 
 }
 
-#about h1 {
+#about h1, #contacts h1{
     background-color: navy;
     color: yellowgreen;
     justify-self: center;
@@ -109,6 +109,7 @@ body {
     letter-spacing: 1.5px;
     font-size: large;
     text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #aboutpic {
     background-image: url('../static/home4.jpg');
@@ -169,6 +170,22 @@ body {
     color: navy;
     padding: 10px;
 }
+#intouch {
+    margin-top: 30px;
+    justify-items: center;
+    padding: 20px;
+    border: solid 1px yellowgreen;
+    color: yellowgreen;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: small;
+    text-decoration: none;
+}
+#intouch:hover {
+    background-color: yellowgreen;
+    color: navy;
+    text-decoration: none;
+}
 
 @media (max-width: 600px) {
     html {
@@ -212,7 +229,7 @@ body {
         margin-top: 10px;
         background-color: transparent;
     }
-    #about h1 {
+    #about h1, #contacts h1 {
         font-size: 44px;
         padding: 20px;
         margin: 70px;
@@ -255,9 +272,16 @@ body {
     }
     #servicedetails p {
         justify-self: center;
+        animation: bounce 2s ;
+        
+    }
+    #servicedetails h3 {
+        font-size: small;
     }
     #servicedetails i {
         padding-bottom: 20px;
+        
+        
     }
     
 }
