@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    transition: scroll-behavior 8s;
 }
 
 body {
@@ -185,6 +186,9 @@ body {
     background-color: yellowgreen;
     color: navy;
     text-decoration: none;
+}
+#contacts {
+    background-color: lightgray;
 }
 
 @media (max-width: 600px) {
