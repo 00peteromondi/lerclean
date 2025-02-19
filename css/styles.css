@@ -356,9 +356,9 @@ textarea {
     #contacts ul {
         padding-top: 40px;
         padding-bottom: 40px;
-        justify-items: center ;
+        justify-items: left;
         color: navy;
-        font-size: 17px;
+        font-size: 14px;
         letter-spacing: 1.2px;
     }
     #contacts ul li {
