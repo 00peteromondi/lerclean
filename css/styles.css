@@ -191,6 +191,68 @@ body {
 #contacts {
     background-color: whitesmoke;
 }
+#contacts p {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    text-align: center;
+    color: navy;
+    font-size: large;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+}
+#contacts ul {
+    padding-top: 80px;
+    padding-bottom: 100px;
+    justify-items: center ;
+    color: navy;
+    font-size: larger;
+    letter-spacing: 1.2px;
+}
+#contacts ul li {
+    padding: 20px;
+}
+.map-div iframe {
+    padding-top: 30px; ;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border: none ;
+    border-radius: 5px;
+}
+form {
+    padding-top: 50px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: navy;
+    letter-spacing: 1.2px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: solid 1px navy;
+    border-radius: 3px;
+    background-color: whitesmoke;
+}
+
+#intouch1 {
+    background-color: navy;
+    color: yellowgreen;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    border: solid 1px navy;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 3px;
+}
 
 @media (max-width: 600px) {
     html {
@@ -291,5 +353,29 @@ body {
     #intouch {
         margin-bottom: 20px;
     }
+    #contacts ul {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        justify-items: center ;
+        color: navy;
+        font-size: 17px;
+        letter-spacing: 1.2px;
+    }
+    #contacts ul li {
+        padding: 10px;
+    }
+    #contacts p {
+        padding-top: 50px;
+        padding-bottom: 30px;
+        text-align: center;
+        color: navy;
+        font-size: 20px;
+        letter-spacing: 1.2px;
+    }
+    .map-div iframe {
+        height: 300px;
+    }
+    
+    
     
 }
