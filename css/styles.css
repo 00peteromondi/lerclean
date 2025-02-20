@@ -5,7 +5,8 @@ html {
 
 body {
     position: relative;
-    overflow-y: scroll;
+    overflow: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .navbar {
     background-color: navy;
@@ -159,12 +160,14 @@ body {
     justify-self: center;
     letter-spacing: 1.2px;
     padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #servicedetails h3 {
     color: navy;
     font-size: 14px;
     margin-top: 10px;
     text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #servicedetails i {
     font-size: 56px;
@@ -203,13 +206,15 @@ body {
 #contacts ul {
     padding-top: 80px;
     padding-bottom: 100px;
-    justify-items: center ;
+    justify-items: left;
     color: navy;
     font-size: larger;
+    font-weight: bolder;
     letter-spacing: 1.2px;
 }
 #contacts ul li {
-    padding: 20px;
+    padding: 10px;
+    font-weight: bolder;
 }
 .map-div iframe {
     padding-top: 30px; ;
@@ -252,6 +257,39 @@ textarea {
     margin-top: 20px;
     cursor: pointer;
     border-radius: 3px;
+}
+footer {
+    background-color: navy;
+    color: yellowgreen;
+    padding: 20px;
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: 1.2px;
+    
+}
+
+footer a {
+    color: yellowgreen;
+    text-decoration: none;
+    margin: 10px;
+    letter-spacing: 0.8px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: yellowgreen;
+}
+footer h5 {
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+footer i {
+    padding: 15px;
+}
+footer p {
+    letter-spacing: 1px;
+    font-size: small;
+    padding: 10px;
 }
 
 @media (max-width: 600px) {
@@ -323,15 +361,17 @@ textarea {
         margin-top: 80px;
         margin-bottom: 20px;
         text-align: center;
+        justify-self: center;
     }
     #services p {
         margin-top: 20px;
         font-size: small;
-        justify-self: right;
+        justify-self: center;
         font-weight: bold;
     }
     #ourServices {
         background-image: url('../static/home5.jpg');
+        
         background-position: right;
     }
     #servicedetails {
@@ -362,7 +402,7 @@ textarea {
         letter-spacing: 1.2px;
     }
     #contacts ul li {
-        padding: 10px;
+        padding: 5px;
     }
     #contacts p {
         padding-top: 50px;
