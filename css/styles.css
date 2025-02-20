@@ -299,10 +299,13 @@ footer p {
     body {
         font-size: 14px;
     }
+    header {
+        position: sticky;
+    }
     .navbar {
         font-size: 10px;
         padding: 10px;
-        position: sticky;
+        position: fixed;
     }
     .navbar-toggler-icon .toggler-icon {
         background-color: yellowgreen;
