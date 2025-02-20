@@ -302,6 +302,7 @@ footer p {
     .navbar {
         font-size: 10px;
         padding: 10px;
+        position: sticky;
     }
     .navbar-toggler-icon .toggler-icon {
         background-color: yellowgreen;
